@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="kn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ಪದ್ಮಾವತಿ ಕೃಷಿ ಔಷಧಿ ಕೇಂದ್ರ</title>
+
+<style>
+:root{
+    --green:#1b5e20;
+    --light:#4caf50;
+    --bg:#f4f7f3;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Noto Sans Kannada", Arial, sans-serif;
+}
+
+body{
+    background:var(--bg);
+    color:#333;
+}
+
+/* HEADER */
+header{
+    background:white;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+nav{
+    max-width:1200px;
+    margin:auto;
+    padding:15px 20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav h1{
+    color:var(--green);
+    font-size:24px;
+}
+
+nav a{
+    margin-left:20px;
+    text-decoration:none;
+    color:#333;
+    font-weight:bold;
+}
+
+/* HERO */
+.hero{
+    background:
+    linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url("https://images.unsplash.com/photo-1605000797499-95a51c5269ae");
+    background-size:cover;
+    height:90vh;
+    display:flex;
+    align-items:center;
+}
+
+.hero-content{
+    max-width:1200px;
+    margin:auto;
+    padding:20px;
+    color:white;
+}
+
+.hero-content h2{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.hero-content p{
+    font-size:20px;
+    margin-bottom:25px;
+}
+
+.hero-content a{
+    display:inline-block;
+    padding:14px 30px;
+    background:var(--light);
+    color:white;
+    border-radius:50px;
+    text-decoration:none;
+    margin-right:15px;
+    font-weight:bold;
+}
+
+/* SECTIONS */
+section{
+    max-width:1200px;
+    margin:auto;
+    padding:80px 20px;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    font-size:34px;
+    color:var(--green);
+}
+
+/* ABOUT */
+.about{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+    align-items:center;
+}
+
+.about img{
+    width:100%;
+    border-radius:20px;
+}
+
+.about p{
+    font-size:18px;
+    line-height:1.7;
+}
+
+/* PRODUCTS */
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+}
+
+.product{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    text-align:center;
+}
+
+.product img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+.product h3{
+    color:var(--green);
+    margin:15px 0;
+}
+
+/* SERVICES */
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.service{
+    background:#e8f5e9;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+}
+
+/* CONTACT */
+.contact{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+}
+
+.contact-box{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+}
+
+iframe{
+    width:100%;
+    height:320px;
+    border:none;
+    border-radius:20px;
+}
+
+/* FOOTER */
+footer{
+    background:var(--green);
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* WHATSAPP FLOAT */
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    width:60px;
+    height:60px;
+    background:#25D366;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-size:28px;
+    text-decoration:none;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+/* MOBILE */
+@media(max-width:768px){
+    .about,.contact{grid-template-columns:1fr;}
+    .hero-content h2{font-size:32px;}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+    <h1>ಪದ್ಮಾವತಿ ಕೃಷಿ ಔಷಧಿ ಕೇಂದ್ರ</h1>
+    <div>
+        <a href="#about">ನಮ್ಮ ಬಗ್ಗೆ</a>
+        <a href="#products">ಉತ್ಪನ್ನಗಳು</a>
+        <a href="#contact">ಸಂಪರ್ಕ</a>
+    </div>
+</nav>
+</header>
+
+<section class="hero">
+<div class="hero-content">
+    <h2>ನಂಬಿಗಸ್ತ ಕೃಷಿ ಮತ್ತು ಗೊಬ್ಬರ ಅಂಗಡಿ</h2>
+    <p>ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಗೊಬ್ಬರ, ಬೀಜ ಮತ್ತು ಬೆಳೆ ಪರಿಹಾರಗಳು</p>
+    <a href="tel:+918550047165">📞 ಕರೆ ಮಾಡಿ</a>
+    <a href="https://wa.me/918550047165">💬 WhatsApp</a>
+</div>
+</section>
+
+<section id="about">
+<div class="section-title">
+    <h2>ನಮ್ಮ ಬಗ್ಗೆ</h2>
+</div>
+<div class="about">
+    <img src="https://images.unsplash.com/photo-1598514982301-2b2b3a0c0b09">
+    <p>
+        ಪದ್ಮಾವತಿ ಕೃಷಿ ಔಷಧಿ ಕೇಂದ್ರವು ಹೂಬಳ್ಳಿ ಮತ್ತು ಸುತ್ತಮುತ್ತಲಿನ
+        ರೈತರಿಗೆ ನಂಬಿಕೆಯ ಹೆಸರು. ನಾವು ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಗೊಬ್ಬರ,
+        ಬೀಜಗಳು ಮತ್ತು ಕೃಷಿ ಸಲಹೆಗಳನ್ನು ಒದಗಿಸುತ್ತೇವೆ
+        ಹೆಚ್ಚಿನ ಉತ್ಪಾದನೆ ಮತ್ತು ಆರೋಗ್ಯಕರ ಮಣ್ಣಿಗಾಗಿ.
+    </p>
+</div>
+</section>
+
+<section id="products">
+<div class="section-title">
+    <h2>ನಮ್ಮ ಉತ್ಪನ್ನಗಳು</h2>
+</div>
+<div class="products">
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1587049352851-8d4e89133924">
+        <h3>ರಾಸಾಯನಿಕ ಗೊಬ್ಬರ</h3>
+        <p>ಯೂರಿಯಾ, ಡಿಎಪಿ, ಎನ್‌ಪಿಕೆ</p>
+    </div>
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449">
+        <h3>ಜೈವಿಕ ಗೊಬ್ಬರ</h3>
+        <p>ಮಣ್ಣಿನ ಆರೋಗ್ಯ ಹೆಚ್ಚಿಸಲು</p>
+    </div>
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1582515073490-39981397c445">
+        <h3>ಬೀಜಗಳು</h3>
+        <p>ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಬೆಳೆ ಬೀಜಗಳು</p>
+    </div>
+</div>
+</section>
+
+<section id="contact">
+<div class="section-title">
+    <h2>ಸಂಪರ್ಕಿಸಿ</h2>
+</div>
+<div class="contact">
+    <div class="contact-box">
+        <p><strong>📍 ವಿಳಾಸ:</strong><br>
+        ಎನ್‌ಎಚ್-4 ಸರ್ವಿಸ್ ರಸ್ತೆ, ಗಾಂಧಿನಗರ, ಎಮ್ ಕೆ ಹೂಬಳ್ಳಿ</p>
+
+        <p><strong>📞 ಮೊಬೈಲ್:</strong> +91 85500 47165</p>
+        <p><strong>🕒 ಸಮಯ:</strong> ಬೆಳಿಗ್ಗೆ 9 ರಿಂದ ಸಂಜೆ 7</p>
+    </div>
+
+    <iframe src="https://www.google.com/maps?q=Shree%20Padmavati%20Krushi%20Aushadi%20Kendra&output=embed"></iframe>
+</div>
+</section>
+
+<footer>
+<p>© 2026 ಪದ್ಮಾವತಿ ಕೃಷಿ ಔಷಧಿ ಕೇಂದ್ರ</p>
+</footer>
+
+<a href="https://wa.me/918550047165" class="whatsapp">💬</a>
+
+</body>
+</html>
